@@ -1,7 +1,28 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="./assets/img/icon.png">
+    <h1>Welcome to the weathsite</h1>
+    <form>
+      <div class="row">
+        <div class="offset-md-3 col-md-6">
+          <div class="form-group">
+            <input type="text" class="form-control" aria-describedby="browsecity" placeholder="Enter city">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="offset-md-2col-md-8">
+          <div class="row">
+            <div class="col-md-12">
+              <HelloWorld/>
+            </div>
+          </div>
+          <div class="row">
+
+          </div>
+        </div>
+      </div>
+    </form>
   </div>
 </template>
 

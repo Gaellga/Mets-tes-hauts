@@ -7,7 +7,7 @@
 </template>
 <script>
 
-import GetWeather from "/home/user/Documents/VueJS/meteo/Mets-tes-hauts/src/GetWeather.vue";
+import GetWeather from "./components/GetWeather.vue";
 export default {
   name: 'app',
   components: {

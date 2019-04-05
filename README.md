@@ -25,7 +25,7 @@ https://github.com/becodeorg/BXL-Johnson-3.9/tree/master/Projets/Mets-Tes-Hauts
 
 ## Maquette
 
-* Créée à l'aide de [Figma](https://www.figma.com/)  
+* Créée par Teddy à l'aide de [Figma](https://www.figma.com/)  
 
 ![Maquette de l'appli](src/assets/model/Mets-tes-hauts.png "Maquette")  
 

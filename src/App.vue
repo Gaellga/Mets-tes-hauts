@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/img/icon.png">
-    <h1>Welcome to the weathsite</h1>
     <GetWeather/>
   </div>
 </template>
@@ -24,5 +23,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  font-size: 1.2em;
 }
 </style>

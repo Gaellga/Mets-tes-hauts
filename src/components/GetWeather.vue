@@ -7,10 +7,10 @@
           </div>
         </div>
       </div>
-      <div class="row border-green">
-        <div class="offset-md-2 col-md-8 border">
+      <div class="row">
+        <div class="offset-md-2 col-md-8">
           <div class="row">
-            <div class="col-md-12 border">
+            <div class="col-md-12">
               <div class="row">
                 <div class="col-md-3"><img id="iconeToday" v-bind:src="icon" alt="weather icon"></div>
                 <div class="col-md-5"><h1>{{name}}</h1><p>{{currentTemp}}</p></div>
@@ -18,11 +18,11 @@
               </div>
             </div>
           </div>
-          <div class="row border-green">
-            <div class="col-md-3 border"><img class="iconeNext" v-bind:src="icon2" alt="weather icon day 2"><p>{{tomorrowTemp}}</p></div>
-            <div class="col-md-3 border"><img class="iconeNext" v-bind:src="icon3" alt="weather icon day 3"><p>{{dayThree}}</p></div>
-            <div class="col-md-3 border"><img class="iconeNext" v-bind:src="icon4" alt="weather icon day 4"><p>{{dayFour}}</p></div>
-            <div class="col-md-3 border"><img class="iconeNext" v-bind:src="icon5" alt="weather icon day 5"><p>{{dayFive}}</p></div>
+          <div id="uprow" class="row">
+            <div class="col-md-3"><p>{{jour1}}</p><img class="iconeNext" v-bind:src="icon2" alt="weather icon day 2"><p>{{tomorrowTemp}}</p></div>
+            <div class="col-md-3"><p>{{jour2}}</p><img class="iconeNext" v-bind:src="icon3" alt="weather icon day 3"><p>{{dayThree}}</p></div>
+            <div class="col-md-3"><p>{{jour3}}</p><img class="iconeNext" v-bind:src="icon4" alt="weather icon day 4"><p>{{dayFour}}</p></div>
+            <div class="col-md-3"><p>{{jour4}}</p><img class="iconeNext" v-bind:src="icon5" alt="weather icon day 5"><p>{{dayFive}}</p></div>
           </div>
         </div>
       </div>
@@ -105,6 +105,10 @@ export default {
           this.icon3 = require("../assets/img/" + this.resp3.weather[0].icon.slice(0,2) + ".svg");
           this.icon4 = require("../assets/img/" + this.resp4.weather[0].icon.slice(0,2) + ".svg");
           this.icon5 = require("../assets/img/" + this.resp5.weather[0].icon.slice(0,2) + ".svg");
+          this.jour1 = this.resp.dt_txt;
+          this.jour2 = this.resp2.dt_txt;
+          this.jour3 = this.resp3.dt_txt;
+          this.jour4 = this.resp4.dt_txt;
         })
       .catch(error => {
         throw(error);
@@ -115,11 +119,11 @@ export default {
 }
     </script>
     <style>
-  h1{
-    font-weight: bold;
-    padding: 5%;
-    font-size: 3em;
-  }
+    h1{
+      font-weight: bold;
+      padding: 5%;
+      font-size: 3em;
+    }
     #iconeToday{
       width: 150px;
       padding: 10% 0 10% 0;
@@ -130,6 +134,13 @@ export default {
     }
     #pression{
       padding-top: 10%;
+    }
+    .col-md-8 {
+      border: 2px #D1FCCA solid;
+      border-radius: 25px;
+    }
+    #uprow {
+      border-top: 2px #D1FCCA solid;
     }
     </style>
     

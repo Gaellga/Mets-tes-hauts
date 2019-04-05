@@ -1,6 +1,6 @@
 # Application Mets-tes-hauts
 
-![Capture d'écran de l'appli](src/assets/model/screenshut.png "Maquette")  
+![Capture d'écran de l'appli](vuejs/src/assets/model/screenshut.png "Maquette")  
 
 * Application de prévision météorologique créée par Gaëlle Gaban  ([Github](https://github.com/Gaellga)) et Teddy Wauquier ([Github](https://github.com/Elleonors))  
 * Réalisé en avril 2019 dans le cadre de la formation BeCode  
@@ -27,7 +27,7 @@ https://github.com/becodeorg/BXL-Johnson-3.9/tree/master/Projets/Mets-Tes-Hauts
 
 * Créée par Teddy à l'aide de [Figma](https://www.figma.com/)  
 
-![Maquette de l'appli](src/assets/model/Mets-tes-hauts.png "Maquette")  
+![Maquette de l'appli](vuejs/src/assets/model/Mets-tes-hauts.png "Maquette")  
 
 ## Credits
 * L'API utilisée se nomme *"5 day weather forecast"* et appartient au site [OpenWeatherMap](https://openweathermap.org/)  

@@ -33,7 +33,7 @@ https://github.com/becodeorg/BXL-Johnson-3.9/tree/master/Projets/Mets-Tes-Hauts
 ## Répartition du travail  
 
 * Teddy : CSS, intégration de l'API, build
-* Gaëlle : affichage de l'API (toutes les données et les images)
+* Gaëlle : affichage de l'API (données météorologiques et images)
 
 ## Credits
 * L'API utilisée se nomme *"5 day weather forecast"* et appartient au site [OpenWeatherMap](https://openweathermap.org/)  

@@ -29,6 +29,12 @@ https://github.com/becodeorg/BXL-Johnson-3.9/tree/master/Projets/Mets-Tes-Hauts
 
 ![Maquette de l'appli](vuejs/src/assets/model/Mets-tes-hauts.png "Maquette")  
 
+
+## Répartition du travail  
+
+* Teddy : CSS, intégration de l'API, build
+* Gaëlle : affichage de l'API (informations, images)
+
 ## Credits
 * L'API utilisée se nomme *"5 day weather forecast"* et appartient au site [OpenWeatherMap](https://openweathermap.org/)  
 * Toutes les images (favicon compris) sont tirées de [Flaticon](https://www.flaticon.com/packs/space-weather) (nous avons également employé le logo de VueJS)
